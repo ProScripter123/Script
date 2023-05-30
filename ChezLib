@@ -1,0 +1,39 @@
+-- Instances
+
+local ChezLib = Instance.new("ScreenGui")
+local ChezFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ChezButton = Instance.new("TextButton")
+
+-- Properties
+
+ChezLib.Name = "ChezLib"
+ChezLib.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ChezLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ChezFrame.Name = "ChezFrame"
+ChezFrame.Parent = ChezLib
+ChezFrame.BackgroundColor3 = Color3.new(1, 1, 0.0980392)
+ChezFrame.Position = UDim2.new(0.29808569, 0, 0.281795502, 0)
+ChezFrame.Size = UDim2.new(0, 402, 0, 496)
+
+Title.Name = "Title"
+Title.Parent = ChezFrame
+Title.BackgroundColor3 = Color3.new(1, 0.941177, 0.0941177)
+Title.Size = UDim2.new(0, 401, 0, 50)
+Title.Font = Enum.Font.DenkOne
+Title.Text = ""
+Title.TextColor3 = Color3.new(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14
+Title.TextWrapped = true
+
+ChezButton.Name = "ChezButton"
+ChezButton.Parent = ChezFrame
+ChezButton.BackgroundColor3 = Color3.new(0.905882, 1, 0.054902)
+ChezButton.Position = UDim2.new(0, 0, 0.213709667, 0)
+ChezButton.Size = UDim2.new(0, 227, 0, 27)
+ChezButton.Font = Enum.Font.SourceSans
+ChezButton.Text = ""
+ChezButton.TextColor3 = Color3.new(0, 0, 0)
+ChezButton.TextSize = 14
