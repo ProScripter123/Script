@@ -1,0 +1,3 @@
+local Revert2 = game.ServerStorage:FindFirstChild("Header")
+local RevertFrom = game.Players.LocalPlayer.PlayerGui.Warn
+Revert2.Parent.RevertFrom
