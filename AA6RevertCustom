@@ -1,3 +1,3 @@
 local Revert1 = game.ServerStorage:FindFirstChild("Exit")
-local RevertFrom = game.Players.LocalPlayer.PlayerGui.Warn.Frame.Exit
+local RevertFrom = game.Players.LocalPlayer.PlayerGui.Warn.Frame
 Revert1.Parent.RevertFrom
